@@ -45,3 +45,6 @@ else
     echo  "alias چک='git status'" >> "$bashrc_file"
     echo "Aliases appended to the bashrc file."
 fi
+
+# Source the bashrc file to apply the changes
+source "$bashrc_file"
