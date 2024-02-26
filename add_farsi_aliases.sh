@@ -27,5 +27,21 @@ if grep -Fxq "# Custom Aliases" "$bashrc_file"; then
 else
     # Append the aliases to the bashrc file
     echo -e "\n# Custom Aliases" >> "$bashrc_file"
+    echo  "alias گربه='cat'" >> "$bashrc_file"
+    echo  "alias لمس='touch'" >> "$bashrc_file"
+    echo  "alias پک='rm'" >> "$bashrc_file"
+    echo  "alias پکز='rm -rf'" >> "$bashrc_file"
+    echo  "alias تپ='cd'" >> "$bashrc_file"
+    echo  "alias خانه='cd ~'" >> "$bashrc_file"
+    echo  "alias بالا='cd ..'" >> "$bashrc_file"
+    echo  "alias پایین='cd -'" >> "$bashrc_file"
+    echo  "alias چاپ='echo'" >> "$bashrc_file"
+    echo  "alias گیت='git'" >> "$bashrc_file"
+    echo  "alias کلون='git clone'" >> "$bashrc_file"
+    echo  "alias اضافه='git add'" >> "$bashrc_file"
+    echo  "alias ثبت='git commit'" >> "$bashrc_file"
+    echo  "alias فشار='git push'" >> "$bashrc_file"
+    echo  "alias بکش='git pull'" >> "$bashrc_file"
+    echo  "alias چک='git status'" >> "$bashrc_file"
     echo "Aliases appended to the bashrc file."
 fi
