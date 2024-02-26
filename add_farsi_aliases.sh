@@ -46,5 +46,8 @@ else
     echo "Aliases appended to the bashrc file."
 fi
 
+# Add execution permission
+chmod +x add_farsi_aliases.sh
+
 # Source the bashrc file to apply the changes
 source "$bashrc_file"
