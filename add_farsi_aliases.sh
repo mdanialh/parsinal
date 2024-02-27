@@ -11,15 +11,15 @@ alias پکز='rm -rf'
 alias تپ='cd'
 alias خانه='cd ~'
 alias بالا='cd ..'
-alias پایین='cd -'
+alias قبلی='cd -'
 alias چاپ='echo'
 alias گیت='git'
 alias کلون='git clone'
 alias اضافه='git add'
-alias ثبت='git commit'
+alias تعهد='git commit'
 alias فشار='git push'
 alias بکش='git pull'
-alias چک='git status'
+alias احوال='git status'
 
 # Check if the aliases already exist in the bashrc file
 if grep -Fxq "# Custom Aliases" "$bashrc_file"; then
