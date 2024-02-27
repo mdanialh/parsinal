@@ -1,9 +1,6 @@
 #!/bin/bash
 
 # Add your aliases here
-
-# Path to the bashrc file
-bashrc_file="$HOME/.bashrc"
 alias گربه='cat'
 alias لمس='touch'
 alias پک='rm'
@@ -18,8 +15,23 @@ alias کلون='git clone'
 alias اضافه='git add'
 alias ثبت='git commit'
 alias فشار='git push'
-alias بکش='git pull'
+alias کش='git pull'
 alias چک='git status'
+alias کمک='man'
+alias چاپ='echo'
+alias کجام='pwd'
+alias توش='ls'
+alias بخدا='sudo'
+alias چیه='whatis'
+alias کیه='whoami'
+alias بازار='apt'
+alias بروزرسانی='apt update -y && apt upgrade -y'
+alias نصب='apt install'
+alias حذف='apt remove'
+alias 
+
+# Path to the bashrc file
+bashrc_file="$HOME/.bashrc"
 
 # Check if the aliases already exist in the bashrc file
 if grep -Fxq "# Custom Aliases" "$bashrc_file"; then
