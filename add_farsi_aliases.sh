@@ -11,7 +11,7 @@ alias بالا='cd ..'
 alias قبلی='cd -'
 alias چاپ='echo'
 alias گیت='git'
-alias کلون='git clone'
+alias شبیه='git clone'
 alias اضافه='git add'
 alias تعهد='git commit'
 alias فشار='git push'
@@ -45,16 +45,27 @@ else
     echo  "alias تپ='cd'" >> "$bashrc_file"
     echo  "alias خانه='cd ~'" >> "$bashrc_file"
     echo  "alias بالا='cd ..'" >> "$bashrc_file"
-    echo  "alias پایین='cd -'" >> "$bashrc_file"
+    echo  "alias قبلی='cd -'" >> "$bashrc_file"
     echo  "alias چاپ='echo'" >> "$bashrc_file"
     echo  "alias گیت='git'" >> "$bashrc_file"
-    echo  "alias کلون='git clone'" >> "$bashrc_file"
+    echo  "alias شبیه='git clone'" >> "$bashrc_file"
     echo  "alias اضافه='git add'" >> "$bashrc_file"
-    echo  "alias ثبت='git commit'" >> "$bashrc_file"
+    echo  "alias تعهد='git commit'" >> "$bashrc_file"
     echo  "alias فشار='git push'" >> "$bashrc_file"
-    echo  "alias بکش='git pull'" >> "$bashrc_file"
-    echo  "alias چک='git status'" >> "$bashrc_file"
-    echo "Aliases appended to the bashrc file."
+    echo  "alias کش='git pull'" >> "$bashrc_file"
+    echo  "alias احوال='git status'" >> "$bashrc_file"
+    echo  "alias کمک='man'" >> "$bashrc_file"
+    echo  "alias چاپ='echo'" >> "$bashrc_file"
+    echo  "alias کجام='pwd'" >> "$bashrc_file"
+    echo  "alias توش='ls'" >> "$bashrc_file"
+    echo  "alias بخدا='sudo'" >> "$bashrc_file"
+    echo  "alias چیه='whatis'" >> "$bashrc_file"
+    echo  "alias کیه='whoami'" >> "$bashrc_file"
+    echo  "alias بازار='apt'" >> "$bashrc_file"
+    echo  "alias بروزرسانی='apt update -y && apt upgrade -y'" >> "$bashrc_file"
+    echo  "alias نصب='apt install'" >> "$bashrc_file"
+    echo  "alias حذف='apt remove'" >> "$bashrc_file"
+    echo  "Aliases appended to the bashrc file."
 fi
 
 # Add execution permission
